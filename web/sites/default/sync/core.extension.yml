@@ -24,6 +24,7 @@ module:
   image: 0
   kint: 0
   language: 0
+  libraries: 0
   link: 0
   locale: 0
   menu_export: 0
@@ -45,6 +46,9 @@ module:
   tour: 0
   update: 0
   user: 0
+  views_fieldsets: 0
+  views_slideshow: 0
+  views_slideshow_cycle: 0
   views_ui: 0
   views: 10
   standard: 1000

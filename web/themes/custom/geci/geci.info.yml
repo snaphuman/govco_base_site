@@ -6,6 +6,11 @@ libraries:
   - geci/font-awesome
 base theme: bootstrap_for_drupal
 package: CRC
+library_dependencies:
+  - jquery.cycle
+  - json2
+  - jquery.hoverIntent
+  - jquery.pause
 regions:
   top: Top
   header: Header

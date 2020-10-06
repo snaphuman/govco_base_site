@@ -1,0 +1,23 @@
+uuid: f7df3a6d-1bb7-4173-b7e0-27e65abed336
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_global_enlace
+    - node.type.slider
+  module:
+    - link
+id: node.slider.field_global_enlace
+field_name: field_global_enlace
+entity_type: node
+bundle: slider
+label: Enlace
+description: 'Utilice este campo para enlazar el banner hacia un recurso interno o página externa'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 0
+field_type: link

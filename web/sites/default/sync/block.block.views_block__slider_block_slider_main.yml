@@ -1,0 +1,24 @@
+uuid: 6c7fbd08-6643-49bc-a857-5d6685ea1243
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.slider
+  module:
+    - views
+  theme:
+    - geci
+id: views_block__slider_block_slider_main
+theme: geci
+region: slider
+weight: 0
+provider: null
+plugin: 'views_block:slider-block_slider_main'
+settings:
+  id: 'views_block:slider-block_slider_main'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }
