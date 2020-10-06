@@ -1,0 +1,10 @@
+font-awesome:
+  remote: https://stackpath.bootstrapcdn.com/font-awesome/
+  version: 4.5.0
+  license:
+    name: MIT
+    url: https://fontawesome.com/license/free
+    gpl-compatible: true
+  css:
+    theme:
+      'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css': { type: external, minified: true }

@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * @file
+ * Functions to support theming and overrides for the GECI subtheme.
+ */
+
+/**
+ * Site name, logo and other global variables.
+ */
+function geci_preprocess(&$variables) {
+  $site_config = \Drupal::config('system.site');
+  $variables['site_name'] = $site_config->get('name');
+  $variables['logo'] = file_url_transform_relative(file_create_url(theme_get_setting('logo.url')));
+  $variables['theme_path'] = \Drupal::service('theme.manager')->getActiveTheme()->getPath();
+}
