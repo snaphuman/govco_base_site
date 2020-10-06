@@ -1,0 +1,22 @@
+uuid: 72da89e7-16ba-4326-842b-b56cb7e77dc2
+langcode: es
+status: true
+dependencies:
+  module:
+    - language
+  theme:
+    - bootstrap_for_drupal
+_core:
+  default_config_hash: IG9Xk7e599hbZegnZ9AiQrX8v6eD7q1XcjbnsTWr_hA
+id: bootstrap_for_drupal_language_interface
+theme: bootstrap_for_drupal
+region: nav_add
+weight: 2
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: ''
+  provider: language
+  label_display: visible
+visibility: {  }

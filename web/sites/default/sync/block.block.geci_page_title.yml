@@ -1,0 +1,27 @@
+uuid: f2cc9fec-a8a3-4cf4-afc9-a4a5afb21a77
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - geci
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: geci_page_title
+theme: geci
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Título de la página'
+  provider: core
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

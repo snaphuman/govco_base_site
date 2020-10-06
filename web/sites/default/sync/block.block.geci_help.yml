@@ -1,0 +1,22 @@
+uuid: 62ddf602-518b-488f-bfe6-9eabff1845f0
+langcode: es
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - geci
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: geci_help
+theme: geci
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Ayuda
+  provider: help
+  label_display: '0'
+visibility: {  }

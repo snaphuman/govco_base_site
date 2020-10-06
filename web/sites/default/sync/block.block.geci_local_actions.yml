@@ -1,0 +1,20 @@
+uuid: d28c63b5-90a5-4554-a295-f1e498dd009a
+langcode: es
+status: true
+dependencies:
+  theme:
+    - geci
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: geci_local_actions
+theme: geci
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Acciones principales de la administración'
+  provider: core
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,14 @@
+uuid: 9c1ddbc7-7dbf-4114-96c5-5c2fbfd10faa
+name: 'Portal de Gestión del Conocimiento e Innovación'
+mail: fabian.hernandez@crcom.gov.co
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: es
+default_langcode: es
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
