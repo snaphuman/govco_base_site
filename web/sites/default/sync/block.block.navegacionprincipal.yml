@@ -1,4 +1,4 @@
-uuid: 6a33d249-c376-405f-86d3-30c45dab1d2c
+uuid: 7147c4b6-1fdb-45f1-a09f-79009d0a208b
 langcode: es
 status: true
 dependencies:
@@ -8,11 +8,9 @@ dependencies:
     - system
   theme:
     - geci
-_core:
-  default_config_hash: ChCx7DYNUrPTt5uiRdQAPDKJQMc-_SyAQTrZh8H0o-c
-id: geci_main_menu
+id: navegacionprincipal
 theme: geci
-region: top
+region: navigation
 weight: 0
 provider: null
 plugin: 'system_menu_block:main'
@@ -22,6 +20,6 @@ settings:
   provider: system
   label_display: '0'
   level: 1
-  depth: 1
+  depth: 0
   expand_all_items: false
 visibility: {  }

@@ -55,6 +55,12 @@
     <div class="row">
       <div class="col col-print-12">
 
+          {% if page.highlighted %}
+            <aside class="mt-2 mt-md-3">
+              {{ page.highlighted }}
+            </aside>
+          {% endif %}
+
           <!-- CONTENT BEFORE -->
           {% if page.content_before %}
             <aside class="mt-2 mt-md-3" id="content-before">

@@ -84,6 +84,7 @@
         }
     },
     "require-dev": {
-        "drupal/devel": "^2.1"
+        "drupal/devel": "^2.1",
+        "drupal/menu_export": "^1.2"
     }
 }
