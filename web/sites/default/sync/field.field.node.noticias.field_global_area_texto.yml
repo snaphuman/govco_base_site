@@ -1,0 +1,21 @@
+uuid: d2124ecc-bee6-44f8-b5d0-4cd920088178
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_global_area_texto
+    - node.type.noticias
+  module:
+    - text
+id: node.noticias.field_global_area_texto
+field_name: field_global_area_texto
+entity_type: node
+bundle: noticias
+label: 'Texto lead'
+description: 'Utilice este campo para ingresar un texto introductorio a la noticia. Este texto será visible en como texto resumen en listas de página y/o bloques destacados.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

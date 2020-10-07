@@ -1,0 +1,33 @@
+uuid: 45f8a84d-e8c1-4f5e-8573-bb251078d88f
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.secciones.field_imagen_seccion
+    - taxonomy.vocabulary.secciones
+  module:
+    - image
+    - text
+id: taxonomy_term.secciones.default
+targetEntityType: taxonomy_term
+bundle: secciones
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_imagen_seccion:
+    weight: 1
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  langcode: true

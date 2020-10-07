@@ -1,0 +1,11 @@
+uuid: 1aaeb70c-466e-4c66-aa73-10d41cb2d27f
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.temas
+id: taxonomy_term.temas
+target_entity_type_id: taxonomy_term
+target_bundle: temas
+default_langcode: site_default
+language_alterable: false

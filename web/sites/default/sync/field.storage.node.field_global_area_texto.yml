@@ -1,0 +1,19 @@
+uuid: 5fba3e17-90c6-4263-b0e8-bcba6b1575a4
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_global_area_texto
+field_name: field_global_area_texto
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

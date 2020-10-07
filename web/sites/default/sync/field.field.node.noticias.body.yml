@@ -1,0 +1,23 @@
+uuid: 249fb260-a47a-4d0f-8093-06074ac0d08c
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.noticias
+  module:
+    - text
+id: node.noticias.body
+field_name: body
+entity_type: node
+bundle: noticias
+label: Cuerpo
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

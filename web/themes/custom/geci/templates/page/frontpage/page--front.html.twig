@@ -43,11 +43,8 @@
 */
 #}
 
-<!-- HEADER-->
 {% include '@geci/includes/header.html.twig' %}
-<!-- HEADER-->
 
-<!-- MAIN -->
 <main role="main">
   <a id="main-content" tabindex="-1"></a>
   <div class="container">
@@ -59,11 +56,18 @@
             {{ page.slider }}
           </div>
         {% endif %}
-
-        {{ page.highlighted }}
+      </div>
+    </div>
+    <div class="row">
+      <div class="col col-print-12">
+        {% if page.featured %}
+          <div class="mt-2 mt-md-3">
+            {{ page.featured }}
+          </div>
+        {% endif %}
       </div>
     </div>
   </div>
 </div>
 </main>
-{% include '@bootstrap_for_drupal/includes/footer.html.twig' %}
+{% include '@geci/includes/footer.html.twig' %}

@@ -1,0 +1,27 @@
+uuid: 1ca209e8-125e-4218-8584-da6a26ac5c2e
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_global_archivos_adjuntos
+    - node.type.noticias
+  module:
+    - file
+id: node.noticias.field_global_archivos_adjuntos
+field_name: field_global_archivos_adjuntos
+entity_type: node
+bundle: noticias
+label: 'Archivos adjuntos'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: 'adjuntos/[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'pdf xls xlsx doc docx.odt odf'
+  max_filesize: ''
+  description_field: true
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

@@ -1,0 +1,33 @@
+uuid: 9d1c73d9-1e8b-4eba-8704-029e0bd2e51e
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_global_seccion
+    - node.type.noticias
+    - taxonomy.vocabulary.secciones
+  content:
+    - 'taxonomy_term:secciones:e66d2d91-6b79-4211-81bf-35f2460878cf'
+id: node.noticias.field_global_seccion
+field_name: field_global_seccion
+entity_type: node
+bundle: noticias
+label: Sección
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    target_uuid: e66d2d91-6b79-4211-81bf-35f2460878cf
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      secciones: secciones
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
