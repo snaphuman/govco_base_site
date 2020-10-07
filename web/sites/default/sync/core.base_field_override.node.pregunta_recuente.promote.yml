@@ -1,0 +1,22 @@
+uuid: 7733d032-7f61-4580-8ffc-82740b342d1b
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.pregunta_recuente
+id: node.pregunta_recuente.promote
+field_name: promote
+entity_type: node
+bundle: pregunta_recuente
+label: 'Promocionado a la página principal'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activado
+  off_label: Desactivado
+field_type: boolean

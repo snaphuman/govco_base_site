@@ -54,7 +54,16 @@ display:
           items_per_page: 3
           offset: 0
       style:
-        type: default
+        type: grid
+        options:
+          grouping: {  }
+          columns: 3
+          automatic_width: false
+          alignment: horizontal
+          col_class_default: false
+          col_class_custom: col-4
+          row_class_default: false
+          row_class_custom: row
       row:
         type: fields
       fields:

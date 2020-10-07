@@ -1,0 +1,29 @@
+uuid: a2866a48-19e9-459f-b006-d38f3920670b
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_global_tema
+    - node.type.pregunta_recuente
+    - taxonomy.vocabulary.temas
+id: node.pregunta_recuente.field_global_tema
+field_name: field_global_tema
+entity_type: node
+bundle: pregunta_recuente
+label: Tema
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      temas: temas
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

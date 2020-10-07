@@ -1,0 +1,23 @@
+uuid: cccdeaa3-f3c5-4626-87de-40ef33895282
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_global_enlace
+    - node.type.pregunta_recuente
+  module:
+    - link
+id: node.pregunta_recuente.field_global_enlace
+field_name: field_global_enlace
+entity_type: node
+bundle: pregunta_recuente
+label: Enlace
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

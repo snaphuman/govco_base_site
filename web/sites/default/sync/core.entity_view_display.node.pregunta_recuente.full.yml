@@ -1,0 +1,55 @@
+uuid: 82bd3301-811c-4888-8228-59e1bcb05d28
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.pregunta_recuente.body
+    - field.field.node.pregunta_recuente.field_global_enlace
+    - field.field.node.pregunta_recuente.field_global_seccion
+    - field.field.node.pregunta_recuente.field_global_tema
+    - node.type.pregunta_recuente
+  module:
+    - link
+    - text
+    - user
+id: node.pregunta_recuente.full
+targetEntityType: node
+bundle: pregunta_recuente
+mode: full
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_global_enlace:
+    weight: 1
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_global_tema:
+    weight: 2
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_global_seccion: true
+  langcode: true

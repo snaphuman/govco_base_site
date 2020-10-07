@@ -1,0 +1,33 @@
+uuid: 16054e22-c00f-44ac-b9cd-84f90c5cb30b
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_global_seccion
+    - node.type.pregunta_recuente
+    - taxonomy.vocabulary.secciones
+  content:
+    - 'taxonomy_term:secciones:d684bbc6-35db-4945-aebf-40bde45494fc'
+id: node.pregunta_recuente.field_global_seccion
+field_name: field_global_seccion
+entity_type: node
+bundle: pregunta_recuente
+label: Sección
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    target_uuid: d684bbc6-35db-4945-aebf-40bde45494fc
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      secciones: secciones
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
