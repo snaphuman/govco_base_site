@@ -1,0 +1,23 @@
+uuid: 1333d8f6-f544-49e0-96c8-00e0a1cd1436
+langcode: es
+status: true
+dependencies:
+  module:
+    - ctools
+    - taxonomy
+id: path_secciones
+label: path_secciones
+type: 'canonical_entities:taxonomy_term'
+pattern: '[term:name]'
+selection_criteria:
+  ec23b12c-0b3c-45f2-86ba-fe566f8b2282:
+    id: 'entity_bundle:taxonomy_term'
+    bundles:
+      secciones: secciones
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    uuid: ec23b12c-0b3c-45f2-86ba-fe566f8b2282
+selection_logic: and
+weight: -5
+relationships: {  }

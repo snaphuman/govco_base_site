@@ -1,4 +1,4 @@
-uuid: 3e6dcc02-ff36-4b9d-9e7a-dda6d6a3a6b2
+uuid: 22412a4f-a6fb-4082-99b1-94d95b5ea1b7
 langcode: es
 status: true
 dependencies:
@@ -9,8 +9,8 @@ dependencies:
     - image
     - taxonomy
     - user
-id: secciones
-label: Secciones
+id: destacados_home
+label: 'Destacados home'
 module: views
 description: ''
 tag: ''

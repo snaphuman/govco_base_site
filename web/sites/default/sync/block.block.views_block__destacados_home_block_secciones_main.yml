@@ -1,0 +1,24 @@
+uuid: 3dda9903-fba8-4524-8a11-a575f2dd969e
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.destacados_home
+  module:
+    - views
+  theme:
+    - geci
+id: views_block__destacados_home_block_secciones_main
+theme: geci
+region: featured
+weight: 0
+provider: null
+plugin: 'views_block:destacados_home-block_secciones_main'
+settings:
+  id: 'views_block:destacados_home-block_secciones_main'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }
