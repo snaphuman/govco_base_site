@@ -12,6 +12,7 @@ dependencies:
     - node
     - text
     - user
+    - views_bootstrap
 id: preguntas_frecuentes
 label: 'Preguntas frecuentes'
 module: views
@@ -70,7 +71,13 @@ display:
             previous: ‹‹
             next: ››
       style:
-        type: default
+        type: views_bootstrap_accordion
+        options:
+          panel_title_field: title
+          collapse:
+            first: '0'
+            middle: '0'
+            last: '0'
       row:
         type: fields
         options:
@@ -87,7 +94,7 @@ display:
           group_type: group
           admin_label: ''
           label: ''
-          exclude: false
+          exclude: true
           alter:
             alter_text: false
             text: ''
