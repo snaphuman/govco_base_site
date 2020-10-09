@@ -4,6 +4,8 @@ description: Tema base para el portal de Gestión del conocimiento de la CRC
 core: 8.x
 libraries:
   - geci/font-awesome
+  - geci/main
+  - geci/fonts
 base theme: bootstrap_for_drupal
 package: CRC
 library_dependencies:

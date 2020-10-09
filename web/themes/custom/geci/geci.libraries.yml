@@ -8,3 +8,11 @@ font-awesome:
   css:
     theme:
       'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css': { type: external, minified: true }
+fonts:
+  css:
+    theme:
+      assets/styles/fonts.css: {}
+main:
+  css:
+    theme:
+      assets/styles/main.css: {}

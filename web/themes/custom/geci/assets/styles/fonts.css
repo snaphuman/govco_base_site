@@ -1,0 +1,25 @@
+/* Global rules for fonts */
+@font-face {
+  font-family: 'boston black italic';
+  src: url('/themes/custom/geci/assets/fonts/Boston-BlackIt.otf');
+}
+
+@font-face {
+  font-family: 'boston heavy italic';
+  src: url('/themes/custom/geci/assets/fonts/Boston-HeavyIt.otf');
+}
+
+@font-face {
+  font-family: 'boston semibold italic';
+  src: url('/themes/custom/geci/assets/fonts/Boston-SemiBoldIt.otf');
+}
+
+@font-face {
+  font-family: 'built titling italic';
+  src: url('/themes/custom/geci/assets/fonts/built titling sb it.ttf');
+}
+
+@font-face {
+  font-family: 'built titling';
+  src: url('/themes/custom/geci/assets/fonts/built titling sb.ttf');
+}
