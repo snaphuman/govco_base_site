@@ -1,8 +1,4 @@
 /* Global rules */
-h1,
-h2 {
-  color: red !important;
-}
 
 /* Custom rules */
 
@@ -17,8 +13,42 @@ h2 {
 
 /* Header */
 
-.header-body h1 {
-  font-family: 'boston heavy italic';
+.site-title {
+  width: 270px;
+}
+.site-title h1 {
+  font-family: 'built titling italic';
+  font-weight: bold;
   color: #273445;
-  font-size: 2rem;
+  font-size: 3.2rem;
+  line-height: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  padding-bottom: 10px;
+}
+.site-title h1 span {
+  color: #4572ef;
+  font-size: 1rem;
+  display: block;
+  line-height: 1rem;
+  margin-left: 7px;
+  letter-spacing: 5px;
+}
+.site-title:before,
+.site-title:after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  border-radius: 5px;
+}
+.site-title h1:before {
+  border: 5px solid #f78836;
+  width: 70%;
+}
+.site-title h1:after {
+  border: 5px solid #f78836;
+  width: 10%;
+  right: 25px;
 }
