@@ -9,12 +9,17 @@
 }
 .header-govco img {
   height: 20px;
+  margin: 5px 0;
 }
 
 /* Header */
 
+.header-body .row {
+  margin-top: 20px;
+}
 .site-title {
   width: 270px;
+  margin: 0 auto;
 }
 .site-title h1 {
   font-family: 'built titling italic';
@@ -51,4 +56,32 @@
   border: 5px solid #f78836;
   width: 10%;
   right: 25px;
+}
+.social-icons ul li {
+  text-decoration: none;
+  display: inline-block;
+}
+.social-icons .circle {
+  background-color: #447af4;
+  border-radius: 50%;
+  height: 37px;
+  width: 37px;
+  overflow: hidden;
+  position: relative;
+}
+.social-icons a {
+  color: #ffffff;
+}
+.social-icons a:before {
+  position: absolute;
+  top: 8px;
+  left: 10px;
+}
+.social-icons a.fa-facebook:before {
+  left: 13px;
+}
+.social-icons span {
+  line-height: 3em;
+  display: block;
+  position: absolute;
 }
