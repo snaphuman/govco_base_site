@@ -2,6 +2,16 @@
 
 /* Custom rules */
 
+.circle {
+  background-color: #447af4;
+  border-radius: 50%;
+  height: 37px;
+  width: 37px;
+  overflow: hidden;
+  position: relative;
+}
+
+
 /* GOVCO */
 
 .header-govco {
@@ -61,14 +71,6 @@
   text-decoration: none;
   display: inline-block;
 }
-.social-icons .circle {
-  background-color: #447af4;
-  border-radius: 50%;
-  height: 37px;
-  width: 37px;
-  overflow: hidden;
-  position: relative;
-}
 .social-icons a {
   color: #ffffff;
 }
@@ -124,4 +126,43 @@
 }
 .header-nav .nav .nav-item:last-child:after {
   border-right: none;
+}
+
+/* Main slider */
+
+.slider {
+  position: relative;
+}
+.slider .views-slideshow-controls-top {
+  width: 100%;
+}
+.slider .views_slideshow_controls_text > span {
+  margin: 20px 35px 0;
+}
+.slider .views_slideshow_controls_text_next {
+  right: 0;
+}
+.slider .views_slideshow_controls_text_next,
+.slider .views_slideshow_controls_text_previous {
+  position: absolute;
+  top: 185px;
+  z-index: 10;
+}
+.slider .views_slideshow_controls_text_pause {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+.slider .widget_pager_bottom {
+  background-color: #447af4;
+}
+.slider .views-slideshow-pager-bullets li {
+  background-color: #ffffff;
+}
+.slider .views-slideshow-pager-bullets li.active {
+  background-color: #273445;
+}
+.slider .views-slideshow-pager-bullets li:hover {
+  background-color: #ffc055;
 }
