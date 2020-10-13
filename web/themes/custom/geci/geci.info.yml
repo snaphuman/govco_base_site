@@ -6,6 +6,10 @@ libraries:
   - geci/font-awesome
   - geci/main
   - geci/fonts
+libraries-override:
+  views_slideshow/widget_info:
+    js:
+      js/views_slideshow.js: assets/scripts/views_slideshow_override.js
 base theme: bootstrap_for_drupal
 package: CRC
 library_dependencies:

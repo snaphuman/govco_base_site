@@ -1,13 +1,13 @@
 font-awesome:
-  remote: https://stackpath.bootstrapcdn.com/font-awesome/
-  version: 4.5.0
+  remote: https://cdnjs.cloudflare.com/ajax/libs/font-awesome
+  version: 5.15.1
   license:
     name: MIT
     url: https://fontawesome.com/license/free
     gpl-compatible: true
   css:
     theme:
-      'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css': { type: external, minified: true }
+      'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css': { type: external, minified: true }
 fonts:
   css:
     theme:

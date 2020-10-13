@@ -14,3 +14,30 @@ function geci_preprocess(&$variables) {
   $variables['logo'] = file_url_transform_relative(file_create_url(theme_get_setting('logo.url')));
   $variables['theme_path'] = \Drupal::service('theme.manager')->getActiveTheme()->getPath();
 }
+
+/**
+ * Views slideshow controls preprocess, previous control.
+ */
+function geci_preprocess_views_slideshow_controls_text_previous(&$variables) {
+  $variables['attributes']['class'][] = 'banner-control';
+  $variables['attributes']['class'][] = 'icon-circle';
+  $variables['attributes']['class'][] = 'icon-bg-blue';
+}
+
+/**
+ * Views slideshow controls preprocess, next control.
+ */
+function geci_preprocess_views_slideshow_controls_text_next(&$variables) {
+  $variables['attributes']['class'][] = 'banner-control';
+  $variables['attributes']['class'][] = 'icon-circle';
+  $variables['attributes']['class'][] = 'icon-bg-blue';
+}
+
+/**
+ * Views slideshow controls preprocess, pause/resume control.
+ */
+function geci_preprocess_views_slideshow_controls_text_pause(&$variables) {
+  $variables['attributes']['class'][] = 'banner-control';
+  $variables['attributes']['class'][] = 'icon-circle';
+  $variables['attributes']['class'][] = 'icon-bg-white';
+}

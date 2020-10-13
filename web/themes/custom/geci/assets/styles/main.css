@@ -2,13 +2,19 @@
 
 /* Custom rules */
 
-.circle {
-  background-color: #447af4;
+.icon-circle {
   border-radius: 50%;
-  height: 37px;
-  width: 37px;
+  height: 36px;
+  width: 36px;
   overflow: hidden;
   position: relative;
+  background-clip: padding-box;
+}
+.icon-bg-blue {
+  background-color: #447af4;
+}
+.icon-bg-white {
+  background-color: #ffffff;
 }
 
 
@@ -136,7 +142,7 @@
 .slider .views-slideshow-controls-top {
   width: 100%;
 }
-.slider .views_slideshow_controls_text > span {
+.slider .views_slideshow_controls_text > .banner-control {
   margin: 20px 35px 0;
 }
 .slider .views_slideshow_controls_text_next {
@@ -165,4 +171,28 @@
 }
 .slider .views-slideshow-pager-bullets li:hover {
   background-color: #ffc055;
+}
+.banner-control span {
+  line-height: 3em;
+  display: block;
+  position: absolute;
+}
+.banner-control a {
+  font-size: 37px;
+  color: #ffffff;
+}
+.banner-control a.fa-pause {
+  font-size: 16px;
+  color: #447af4;
+}
+.views-slideshow-controls-text-status-play a:before {
+  content: "\f04c" !important;
+}
+.views-slideshow-controls-text-status-pause a:before {
+  content: "\f04b" !important;
+}
+.banner-control a.fa-pause:before {
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
