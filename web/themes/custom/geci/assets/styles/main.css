@@ -1,5 +1,6 @@
 /* Global resets for bfd theme stylesheets */
 
+.revert-styles,
 .path-taxonomy h1:before {
   all: revert;
 }
@@ -33,6 +34,15 @@ a:hover {
   overflow: hidden;
   position: relative;
   background-clip: padding-box;
+}
+.btn-rounded {
+  font-family: 'built titling italic';
+  border-radius: 20px;
+  border-color: unset;
+  background-clip: padding-box;
+}
+.btn-rounded:hover {
+  background-color: #447af4;
 }
 .bg-blue {
   background-color: #447af4;
@@ -254,4 +264,30 @@ a:hover {
 }
 .link-section-wrapper:hover .title-section {
   margin-top: 2.5rem;
+}
+
+/* Regions */
+
+.region-title h2 {
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Últimas noticias */
+
+h3.card-title {
+  font-size: 1.5rem;
+  letter-spacing: initial;
+  font-family: roboto;
+  text-transform: unset;
+}
+.card-body .field-content {
+  font-size: 1.1rem;
+}
+.card-body .field-content p:last-child {
+  margin-bottom: 0;
+}
+.card-footer .field-content {
+  text-align: center;
+  padding-bottom: 1rem;
 }
