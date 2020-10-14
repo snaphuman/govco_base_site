@@ -1,5 +1,14 @@
 /* Global rules */
 
+h1,
+h3 {
+  font-family: 'built titling italic';
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #273445;
+  letter-spacing: 2px;
+}
+
 /* Custom rules */
 
 .icon-circle {
@@ -38,13 +47,8 @@
   margin: 0 auto;
 }
 .site-title h1 {
-  font-family: 'built titling italic';
-  font-weight: bold;
-  color: #273445;
   font-size: 3.2rem;
   line-height: 3rem;
-  text-transform: uppercase;
-  letter-spacing: 2px;
   position: relative;
   padding-bottom: 10px;
 }
@@ -195,4 +199,24 @@
   position: absolute;
   top: 10px;
   left: 10px;
+}
+
+/* Secciones destacadas */
+
+.icon-section {
+  width: 110px;
+  height: 110px;
+  background-color: #447af4;
+  padding: 20px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.title-section {
+  width: 150px;
+  text-align: center;
+  margin-top: 1rem;
+}
+.title-section h3 {
+  font-size: 2rem;
+  line-height: 2rem;
 }
