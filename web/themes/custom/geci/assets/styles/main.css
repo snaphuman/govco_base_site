@@ -203,6 +203,11 @@ h3 {
 
 /* Secciones destacadas */
 
+.region-featured h2 {
+  text-indent: 999px;
+  overflow: hidden;
+  height: 0;
+}
 .icon-section {
   width: 110px;
   height: 110px;

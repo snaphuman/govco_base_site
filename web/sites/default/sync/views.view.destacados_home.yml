@@ -325,13 +325,14 @@ display:
             operator_limit_selection: false
             operator_list: {  }
       sorts: {  }
-      title: Secciones
+      title: 'Secciones destacadas'
       header: {  }
       footer: {  }
       empty: {  }
       relationships: {  }
       arguments: {  }
       display_extenders: {  }
+      css_class: featured-sections
     cache_metadata:
       max-age: -1
       contexts:
