@@ -1,16 +1,31 @@
+/* Global resets for bfd theme stylesheets */
+
+.path-taxonomy h1:before {
+  all: revert;
+}
+
 /* Global rules */
 
 h1,
+h2,
 h3 {
   font-family: 'built titling italic';
   font-weight: bold;
   text-transform: uppercase;
-  color: #273445;
   letter-spacing: 2px;
+}
+
+a:hover {
+  color: #f7882e;
 }
 
 /* Custom rules */
 
+.only-sr {
+  text-indent: 999px;
+  overflow: hidden;
+  height: 0;
+}
 .icon-circle {
   border-radius: 50%;
   height: 36px;
@@ -19,13 +34,24 @@ h3 {
   position: relative;
   background-clip: padding-box;
 }
-.icon-bg-blue {
+.bg-blue {
   background-color: #447af4;
 }
-.icon-bg-white {
+.fg-blue {
+  color: #447af4;
+}
+.bg-white {
   background-color: #ffffff;
 }
-
+.fg-white {
+  color: #ffffff;
+}
+.bg-yellow {
+  background-color: #f7882e;
+}
+.fg-dark-blue {
+  color: #273445;
+}
 
 /* GOVCO */
 
@@ -53,15 +79,14 @@ h3 {
   padding-bottom: 10px;
 }
 .site-title h1 span {
-  color: #4572ef;
   font-size: 1rem;
   display: block;
   line-height: 1rem;
   margin-left: 7px;
   letter-spacing: 5px;
 }
-.site-title:before,
-.site-title:after {
+.site-title h1:before,
+.site-title h1:after {
   content: '';
   display: block;
   position: absolute;
@@ -81,9 +106,6 @@ h3 {
   text-decoration: none;
   display: inline-block;
 }
-.social-icons a {
-  color: #ffffff;
-}
 .social-icons a:before {
   position: absolute;
   top: 8px;
@@ -101,11 +123,9 @@ h3 {
 /* Header navigation */
 
 .header-nav {
-  background-color: #447af4;
   padding: 10px 0;
 }
 .header-nav .nav .nav-item a {
-  color: #ffffff;
   text-transform: uppercase;
   font-family: 'built titling italic';
   font-size: 1.5rem;
@@ -183,11 +203,9 @@ h3 {
 }
 .banner-control a {
   font-size: 37px;
-  color: #ffffff;
 }
 .banner-control a.fa-pause {
   font-size: 16px;
-  color: #447af4;
 }
 .views-slideshow-controls-text-status-play a:before {
   content: "\f04c" !important;
@@ -203,15 +221,9 @@ h3 {
 
 /* Secciones destacadas */
 
-.region-featured h2 {
-  text-indent: 999px;
-  overflow: hidden;
-  height: 0;
-}
 .icon-section {
   width: 110px;
   height: 110px;
-  background-color: #447af4;
   padding: 20px;
   border-radius: 50%;
   margin: 25px;

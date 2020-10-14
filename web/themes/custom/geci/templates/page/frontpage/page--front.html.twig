@@ -47,36 +47,60 @@
 
 <main role="main">
   <a id="main-content" tabindex="-1"></a>
-  <div class="container">
-    <div class="row">
-      <div class="col col-print-12">
+  <section class="slider-section">
+    <div class="region-title only-sr">
+      <div class="container">
+        <h2>Slider principal</h2>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col col-print-12">
 
-        {% if page.slider %}
-          <div class="mt-0 mt-md-0">
-            {{ page.slider }}
-          </div>
-        {% endif %}
+          {% if page.slider %}
+            <div class="mt-0 mt-md-0">
+              {{ page.slider }}
+            </div>
+          {% endif %}
+        </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col col-print-12">
-        {% if page.featured %}
-          <div class="mt-2 mt-md-3">
-            {{ page.featured }}
-          </div>
-        {% endif %}
+  </section>
+  <section class="featured-section">
+    <div class="region-title only-sr">
+      <div class="container">
+        <h2>Secciones destacadas</h2>
       </div>
     </div>
-    <div class="row">
-      <div class="col col-print-12">
-        {% if page.latest %}
-          <div class="mt-2 mt-md-3">
-            {{ page.latest }}
-          </div>
-        {% endif %}
+    <div class="container">
+      <div class="row">
+        <div class="col col-print-12">
+          {% if page.featured %}
+            <div class="mt-2 mt-md-3">
+              {{ page.featured }}
+            </div>
+          {% endif %}
+        </div>
       </div>
     </div>
-  </div>
-</div>
+  </section>
+  <section class="latest-section">
+    <div class="region-title bg-yellow">
+      <div class="container">
+        <h2 class="fg-white mx-auto">Últimas noticias</h2>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col col-print-12">
+          {% if page.latest %}
+            <div class="mt-2 mt-md-3">
+              {{ page.latest }}
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </section>
 </main>
 {% include '@geci/includes/footer.html.twig' %}

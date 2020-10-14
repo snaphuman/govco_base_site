@@ -21,7 +21,7 @@ function geci_preprocess(&$variables) {
 function geci_preprocess_views_slideshow_controls_text_previous(&$variables) {
   $variables['attributes']['class'][] = 'banner-control';
   $variables['attributes']['class'][] = 'icon-circle';
-  $variables['attributes']['class'][] = 'icon-bg-blue';
+  $variables['attributes']['class'][] = 'bg-blue';
 }
 
 /**
@@ -30,7 +30,7 @@ function geci_preprocess_views_slideshow_controls_text_previous(&$variables) {
 function geci_preprocess_views_slideshow_controls_text_next(&$variables) {
   $variables['attributes']['class'][] = 'banner-control';
   $variables['attributes']['class'][] = 'icon-circle';
-  $variables['attributes']['class'][] = 'icon-bg-blue';
+  $variables['attributes']['class'][] = 'bg-blue';
 }
 
 /**
@@ -39,5 +39,5 @@ function geci_preprocess_views_slideshow_controls_text_next(&$variables) {
 function geci_preprocess_views_slideshow_controls_text_pause(&$variables) {
   $variables['attributes']['class'][] = 'banner-control';
   $variables['attributes']['class'][] = 'icon-circle';
-  $variables['attributes']['class'][] = 'icon-bg-white';
+  $variables['attributes']['class'][] = 'bg-white';
 }

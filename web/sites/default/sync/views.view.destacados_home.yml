@@ -260,7 +260,7 @@ display:
           exclude: false
           alter:
             alter_text: true
-            text: "<a class=\"link-section-wrapper\" href=\"{{ view_taxonomy_term }}\">\r\n  <div class=\"icon-section\">\r\n    {{ field_imagen_seccion }}\r\n  </div>\r\n  <div class=\"title-section\">\r\n    <h3>{{ name }}</h3>\r\n  </div>\r\n</a>"
+            text: "<a class=\"link-section-wrapper\" href=\"{{ view_taxonomy_term }}\">\r\n  <div class=\"icon-section bg-blue\">\r\n    {{ field_imagen_seccion }}\r\n  </div>\r\n  <div class=\"title-section\">\r\n    <h3>{{ name }}</h3>\r\n  </div>\r\n</a>"
             make_link: false
             path: ''
             absolute: false
