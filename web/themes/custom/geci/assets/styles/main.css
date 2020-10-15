@@ -12,7 +12,8 @@
 
 h1,
 h2,
-h3 {
+h3,
+h3 span {
   font-family: 'built titling italic';
   font-weight: bold;
   text-transform: uppercase;
@@ -78,9 +79,6 @@ a:hover {
 
 /* Header */
 
-.header-body .row {
-  margin-top: 20px;
-}
 .site-title {
   width: 270px;
   margin: 0 auto;
@@ -328,4 +326,38 @@ h3.card-title {
 }
 .view-enlaces-destacados .banner-control.views_slideshow_controls_text_pause {
   top: 45px;
+}
+
+/* Footer */
+
+.govco h3 {
+  margin: 1rem 0 2rem;
+}
+.govco h3 span {
+  letter-spacing: 0;
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
+.govco p,
+.govco ul li,
+.govco .contact ul li a {
+  font-size: 1rem;
+  color: #ffffff;
+}
+.govco ul li a:hover {
+  text-decoration: underline;
+}
+.govco li strong,
+.govco p strong {
+  font-weight: bold;
+}
+.govco .redes-sociales li {
+  list-style: none;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 5px;
+}
+.govco .redes-sociales a {
+  margin: 10px 12px;
+  text-decoration: none;
 }
