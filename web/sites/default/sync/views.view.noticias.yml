@@ -929,7 +929,7 @@ display:
           col_class_default: false
           col_class_custom: 'card border-light mb-3'
           row_class_default: false
-          row_class_custom: card-deck
+          row_class_custom: 'card-deck my-5'
       row:
         type: fields
         options: {  }

@@ -1,0 +1,18 @@
+<footer class="related-links bg-blue">
+  <div class="region-title bg-blue sr-only">
+    <div class="container">
+      <h2 class="fg-white mx-auto">Páginas de interés</h2>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col col-print-12">
+        {% if page.footer %}
+          <div class="mt-2 mt-md-3">
+            {{ page.footer }}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</footer>

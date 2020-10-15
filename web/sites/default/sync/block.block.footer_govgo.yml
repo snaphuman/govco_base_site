@@ -1,0 +1,25 @@
+uuid: 395e434d-5990-406b-a9be-8fdc0371ea11
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:a885a358-85b5-4c5f-a942-8f9e48b05727'
+  module:
+    - block_content
+  theme:
+    - geci
+id: footer_govgo
+theme: geci
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:a885a358-85b5-4c5f-a942-8f9e48b05727'
+settings:
+  id: 'block_content:a885a358-85b5-4c5f-a942-8f9e48b05727'
+  label: 'Footer GOVGO'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -4,6 +4,9 @@
 .path-taxonomy h1:before {
   all: revert;
 }
+.widget_pager {
+  margin-bottom: 0 !important;
+}
 
 /* Global rules */
 
@@ -294,28 +297,35 @@ h3.card-title {
 
 /* Carrusel páginas de interés */
 
+.region-related {
+  margin: 3rem;
+}
+
 .view-enlaces-destacados .views_slideshow_cycle_teaser_section,
 .view-enlaces-destacados .views_slideshow_cycle_slide {
   width: 100% !important;
-  height: auto !important;
+  height: 100px !important;
   display: flex !important;
 }
 .view-enlaces-destacados .views_slideshow_cycle_slide .views-row {
   display: flex;
   flex: 1;
   text-align: center;
+  margin-bottom: 3rem 0;
 }
 .view-enlaces-destacados .views-slideshow-controls-bottom {
-  position: relative;
+  position: absolute;
+  width: 100%;
   z-index: 999;
+  top: 35px;
 }
 .view-enlaces-destacados .views_slideshow_controls_text .banner-control {
   position: absolute;
-  top: 35px;
+  margin: 0 10px;
 }
 .view-enlaces-destacados .banner-control.views_slideshow_controls_text_next {
   right: 0;
 }
 .view-enlaces-destacados .banner-control.views_slideshow_controls_text_pause {
-  top: 80px;
+  top: 45px;
 }

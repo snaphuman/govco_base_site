@@ -63,7 +63,7 @@ display:
           col_class_default: false
           col_class_custom: col-4
           row_class_default: false
-          row_class_custom: row
+          row_class_custom: 'row my-5'
       row:
         type: fields
       fields:
