@@ -291,3 +291,31 @@ h3.card-title {
   text-align: center;
   padding-bottom: 1rem;
 }
+
+/* Carrusel páginas de interés */
+
+.view-enlaces-destacados .views_slideshow_cycle_teaser_section,
+.view-enlaces-destacados .views_slideshow_cycle_slide {
+  width: 100% !important;
+  height: auto !important;
+  display: flex !important;
+}
+.view-enlaces-destacados .views_slideshow_cycle_slide .views-row {
+  display: flex;
+  flex: 1;
+  text-align: center;
+}
+.view-enlaces-destacados .views-slideshow-controls-bottom {
+  position: relative;
+  z-index: 999;
+}
+.view-enlaces-destacados .views_slideshow_controls_text .banner-control {
+  position: absolute;
+  top: 35px;
+}
+.view-enlaces-destacados .banner-control.views_slideshow_controls_text_next {
+  right: 0;
+}
+.view-enlaces-destacados .banner-control.views_slideshow_controls_text_pause {
+  top: 80px;
+}

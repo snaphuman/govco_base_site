@@ -1,0 +1,25 @@
+uuid: 17bc2c72-4f63-4aaa-bf75-97be3df8dbbb
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.enlaces_destacados.field_global_enlace
+    - field.field.node.enlaces_destacados.field_global_image
+    - node.type.enlaces_destacados
+  module:
+    - user
+id: node.enlaces_destacados.teaser
+targetEntityType: node
+bundle: enlaces_destacados
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_global_enlace: true
+  field_global_image: true
+  langcode: true

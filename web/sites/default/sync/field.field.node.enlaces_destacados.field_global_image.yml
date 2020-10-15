@@ -1,0 +1,38 @@
+uuid: c6c81513-72e0-4dc7-ad71-7a76a2c49158
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_global_image
+    - node.type.enlaces_destacados
+  module:
+    - image
+id: node.enlaces_destacados.field_global_image
+field_name: field_global_image
+entity_type: node
+bundle: enlaces_destacados
+label: Imagen
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: 'enlaces-destacados/[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

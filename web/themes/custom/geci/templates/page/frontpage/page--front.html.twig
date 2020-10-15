@@ -102,5 +102,23 @@
       </div>
     </div>
   </section>
+  <section class="related-links">
+    <div class="region-title bg-blue">
+      <div class="container">
+        <h2 class="fg-white mx-auto">Páginas de interés</h2>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col col-print-12">
+          {% if page.related %}
+            <div class="mt-2 mt-md-3">
+              {{ page.related }}
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </section>
 </main>
 {% include '@geci/includes/footer.html.twig' %}

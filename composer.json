@@ -25,7 +25,8 @@
         "drupal/tvi": "^1.0",
         "drupal/views_bootstrap": "^4.3",
         "drupal/views_fieldsets": "^3.3",
-        "drupal/views_slideshow": "^4.8"
+        "drupal/views_slideshow": "^4.8",
+        "drupal/views_slideshow_jcarousel": "1.x-dev"
     },
     "conflict": {
         "drupal/drupal": "*"

@@ -1,0 +1,23 @@
+uuid: 4b4b17ae-ada8-4f8b-89c3-3a112a6218c5
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_global_enlace
+    - node.type.enlaces_destacados
+  module:
+    - link
+id: node.enlaces_destacados.field_global_enlace
+field_name: field_global_enlace
+entity_type: node
+bundle: enlaces_destacados
+label: Enlace
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link
